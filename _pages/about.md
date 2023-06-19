@@ -35,5 +35,3 @@ Beyond publishing, I try to be a good member of our community. I was a Student L
 ---
 
 Beyond publishing, I love creating open-source libraries. I tend to be the kind of persons who will spend a week or a month automating something that takes a couple hours, and then make an open-source project out ouf it. This is how I came to build [PaperMemory](https://github.com/vict0rsch/PaperMemory) a web-based automated reference manager, [`minydra`](https://github.com/vict0rsch/minydra) a minimalist Python argument parser, [`ntfy-wrapper`](https://github.com/vict0rsch/ntfy-wrapper) a simple notification wrapper around the ntfy.sh service, or [`gitmopy`](https://github.com/vict0rsch/gitmopy) an interactive CLI to make pretty commits following the [Gitmoji specification](https://gitmoji.dev/specification).
-
-
