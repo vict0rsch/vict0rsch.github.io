@@ -1,12 +1,17 @@
 github_users:
-  - torvalds
-  - alshedivat
-
+  - vict0rsch
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - vict0rsch/PaperMemory
+  - mlco2/impact
+  - mlco2/codecarbon
+  - cc-ai/climategan
+  - saleml/torchgfn
+  - vict0rsch/gitmopy
+  - vict0rsch/ntfy-wrapper
+  - vict0rsch/minydra
+  - vict0rsch/torch_simple_timing
+  - vict0rsch/faenet
+  - vict0rsch/phast
+  - vict0rsch/pytorch-fid-wrapper
+  - vict0rsch/deep_learning
+  - vict0rsch/LiSS
