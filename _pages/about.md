@@ -34,7 +34,11 @@ Finally, I wanted to keep an eye on my own community and work towards **quantify
 
 ### Community work
 
-Beyond publishing, I try to be a good member of our community. I was a Student Lab Representative for 3 consecutive years at Mila, I was a TA for 2 consecutive years for the UdeM [IFT 3710/6759 Advanced projects in Machine Learning](https://alexhernandezgarcia.github.io/teaching/mlprojects23/) course, I contribute a module on AI & Climate Change to an upcoming MOOC by the Geography Department of Université de Montréal (with the amazing [Mélisande Teng](https://melisandeteng.github.io/)) and I like writing tutorials (from [as early as 2015](https://github.com/vict0rsch/deep_learning) or more recently an [introduction to Pytorch](https://github.com/vict0rsch/pytorch-tutorial)).
+Beyond publishing, I try to be a good member of our community.
+
+* Student Lab Representative for 3 consecutive years at Mila
+* TA for 2 consecutive years for the UdeM [IFT 3710/6759 Advanced projects in Machine Learning](https://alexhernandezgarcia.github.io/teaching/mlprojects23/) course,
+* I contribute a module on AI & Climate Change to an upcoming MOOC by the Geography Department of Université de Montréal (with the amazing [Mélisande Teng](https://melisandeteng.github.io/)) and I like writing tutorials (from [as early as 2015](https://github.com/vict0rsch/deep_learning) or more recently an [introduction to Pytorch](https://github.com/vict0rsch/pytorch-tutorial)).
 
 ---
 

@@ -4,3 +4,35 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+ArXiv:
+  url: https://arxiv.org/
+  color: "#B31C1C"
+
+BioSens. Bioelectron.:
+  url: https://www.sciencedirect.com/journal/biosensors-and-bioelectronics
+  color: "#E87223"
+
+ICLR - Workshop:
+  url: https://iclr.cc/virtual/2019/events/workshop
+  color: "#77C9E9"
+
+ICLR:
+  url: https://iclr.cc/
+  color: "#2BBBF1"
+
+ICML:
+  url: https://icml.cc/
+  color: "#873934"
+
+IEEE CG&A:
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=38
+  color: "#DCE73F"
+
+NeurIPS - Workshop:
+  url: https://nips.cc/virtual/2019/events/workshop
+  color: "#634184"
+
+PLOS Dig. Health:
+  url: https://journals.plos.org/digitalhealth/
+  color: "#F7BACF"
