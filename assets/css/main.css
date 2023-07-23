@@ -13,7 +13,7 @@
   --global-theme-color: #B509AC;
   --global-hover-color: #B509AC;
   --global-hover-text-color: #ffffff;
-  --global-footer-bg-color: #1C1C1D;
+  --global-footer-bg-color: #28282b;
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
   --global-distill-app-color: #828282;
@@ -48,7 +48,7 @@
 }
 
 html[data-theme=dark] {
-  --global-bg-color: #1C1C1D;
+  --global-bg-color: #28282b;
   --global-code-bg-color: #2c3237;
   --global-text-color: #e8e8e8;
   --global-text-color-light: #e8e8e8;
@@ -56,7 +56,7 @@ html[data-theme=dark] {
   --global-hover-color: #2698BA;
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #e8e8e8;
-  --global-footer-text-color: #1C1C1D;
+  --global-footer-text-color: #28282b;
   --global-footer-link-color: #000000;
   --global-distill-app-color: #e8e8e8;
   --global-divider-color: #424246;
@@ -96,6 +96,7 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  line-height: 1.8rem;
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   scroll-margin-top: 66px;
