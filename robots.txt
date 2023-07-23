@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://vict0rs.ch/# the subpath of your site, e.g. /blog//sitemap.xml
+Sitemap: https://vict0rs.ch/sitemap.xml
