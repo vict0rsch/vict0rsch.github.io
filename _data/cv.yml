@@ -2,96 +2,165 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Victor Schmidt
     - name: Date of Birth
-      value: 14th March 1879
+      value: December 8th, 1992
     - name: Languages
-      value: English, German
+      value: French, English, Spanish (intermediate), Arabic (beginner)
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Mila - Université de Montréal, Montréal, Canada
+      year: 2019 - Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Supervised by Prof. Yoshua Bengio
+        - Focus on applications of AI in the fight against climate change
+        - title: Visualizing the consequences of climate change (2019-2022)
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - "Problematic: GANs were invented at Mila. Can we use them for good?"
+            - "Solution: Use GANs to trigger empathy through personalized visualizations of climate change-related extreme events: floods, wildfires and smog."
+            - "Website: <a href='https://thisclimatedoesnotexist.com' target='_blank'>thisclimatedoesnotexist.com</a> where you can search for any address on Google Street View and see what that place would look like if it were impacted by one of the aforementioned extreme events. The ultimate test set!"
+            - "Paper: <em>ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods</em> (ICLR 2022)"
+        - title: "Measuring the carbon impact of AI (2019-2022)"
+          contents:
+            - "Problematic: AI is a promising tool to fight climate change, but it also has a carbon footprint. How can we measure it?"
+            - "Solution: create tools for the community to measure the carbon impact of their AI models and experiments."
+            - "Online calculator: <em>Quantifying the Carbon Emissions of Machine Learning</em> (Climate Change AI workshop, NeurIPS 2019) -> <a href='https://mlco2.github.io/impact' target='_blank'>mlco2.github.io/impact</a>"
+            - "Python package: <a href='https://mlco2.github.io/codecarbon' target='_blank'><code style='display: inline-block'>codecarbon</code></a>"
+        - title: "Materials discovery (2022-now)"
+          contents:
+            - "Problematic: Materials discovery is a slow and expensive process. Can we use AI to accelerate it?"
+            - "Solution: Use GFlowNets to explore the space of electro-catalysts and hope to discover materials able to improve the energy efficiency of electro-chemical reactions such as the electrolysis of hydrogene for energy storage."
+            - "Paper: <em>PhAST: Physics-Aware, Scalable, and Task-specific GNNs for Accelerated Catalyst Design</em> (under review, JMLR)"
+            - "Paper: <em>FAENet: Frame Averaging Equivariant GNN for Materials Modeling</em> (ICML 2023)"
+            - "Work in progress: using GflowNets to sample crystal structures"
+            - "Future work: putting it all together, using FAENet as a reward function for the GFlowNet and sample electro-catalysts"
+    - title: MSc. Machine Learning
+      institution: University College London, London, UK
+      year: 2016-2017
       description:
-        - Description 1.
-        - Description 2.
+        - Distinction award
+        - Supervised learning, Graphical models, RL, NLP, Computer Vision.
+        - "NLP Research Internship with Prof. Sebastian Riedel (4 months, UCL Machine Reading Group): Deep RL & NLP to answer questions using Wikipedia."
+    - title: Engineering degree
+      year: 2012-2016
+      institution: École polytechnique, Palaiseau, France
+      description:
+        - Entrepreneurship and Data Science majors
+        - "Courses: Quantum Physics, Computer Science, Operations Research, Entrepreneurship, Data Science"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: NLP Data Scientist
+      institution: Ministry for the Economy and Finance, Paris, France
+      year: Jan. 2018 - Nov. 2018
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - title: Public Interest Entrepreneur
+          contents: <em>"During 10 months, a cohort of about 30 Public Interest Entrepreneurs work within public administrations in teams of 2 or 3 on challenges linked to data and digital transformation."</em> (Etalab.gouv)
+        - Document classification and sentence highlighting
+        - Validation web app to mesure noise in the labels and improve understanding of the models.
+        - Translation (Fr-En) proof of concept for fine-tuned NMT
+        - <a href="https://eig.etalab.gouv.fr/defis/hopkins/">Project page (French)</a>
+    - title: Data Science Engineer
+      institution: Rythm, Inc, Paris, France
+      year: Sept. 2015 - Feb. 2016
       description:
-        - Description 1.
-        - Description 2.
+        - Deep learning infrastructure using Keras & Lasagne
+        - Signal quality prediction based on two seconds of electro-encephalogram signal with LSTM networks
+        - Backend server to store and compare predictors
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Software Engineer Intern
+      institution: Gemalto, Singapore
+      year: July 2014 - Aug. 2014
+      description: Development of a mobile web app
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Maths Teacher Assistant
+      institution: Lycee Janson de Sailly, Paris
+      year: Sept. 2013 - June 2014
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: A Few Open Source Projects I care about
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/vict0rsch/papermemory">PaperMemory</a>
+      year: 2020-Now
+      description:
+        - title: A browser extension to automatically record the papers you read. Also finds code repositories and matches Arxiv papers to their published version. Never lose a paper again.
+          contents:
+            - JavaScript (+Gulp, Mocha, Pupeeteer), HTML, CSS.
+            - Started as a personal tool, now maintained for a community
+        - title: 350+ ⭐️
+          contents: ""
+    - title: <a href="https://github.com/mlco2/codecarbon">CodeCarbon</a>
+      year: 2020-2022
+      description:
+        - title: A popular Python package to estimate the carbon footprint of your code.
+          contents:
+            - Creator of the project
+            - Project leader for 2 years
+            - Coordinator of a team of 5-10 open source contributors
+            - Major code contributor
+            - Data For Good France Season 9 leader
+        - title: 700+ ⭐️
+          contents: ""
+    - title: <a href="https://github.com/vict0rsch/gitmopy">GitmoPy</a>
+      year: 2023-Now
+      description:
+        - title: A simple Python CLI to use the Gitmoji convention in your commits
+          contents:
+            - Mostly a personal tool to learn how to build a Python CLI with <code>typer</code> and <code>GitPython</code>
+    - title: <a href="https://metada.org">metada.org</a>
+      year: 2018-2019
+      description: A simple website & browser extension to visualize the hierarchy of ownership in the French media (React, Cytoscape.js, Python, Flask, PostgreSQL)
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - year: 2022
+      items:
+        - Druide
+        - <em>Antidote fellowship winner</em>
+    - year: 2017
+      items:
+        - University College London
+        - <em>Distinction</em>
+    - year: 2015
+      items:
+        - École polytechnique
+        - <em>Outstanding Investment award</em>
 
-- title: Academic Interests
+- title: Community
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Student Lab Rep
       items:
-        - Description 1.
-        - Description 2.
+        - May 2019 ➡️ Oct. 2022
+        - Member then Secretary General for Mila's Student LabReps organization
+        - Organized events for students
+        - Represented student interest with the profs and administration
+        - Contributed to shaping the ecosystem, from Mila's online presence to the office itself.
+    - title: Office Hours
+      items:
+        - Give 1h / week to help junior Mila students (MSc., early PhD) in their research journey
+    - title: Climate Change MOOC
+      items:
+        - MOOC lead by the department of Geography of Université de Montréal
+        - Goal is to educate undergrads across the board regarding causes, stakes and solutions to climate change
+        - Co-lead of the module on AI and climate change (5 modules in total in the MOOC)
+    - title: GFlowNets Workshop
+      items:
+        - Lead organizer for the upcoming GFlowNet workshop at Mila (Fall 23)
 
 - title: Other Interests
-  type: list
+  type: map
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - name: ""
+      value: Climbing (bouldering, top rope, lead ; gym, outdoor)
+    - name:
+      value: Tennis
+    - name:
+      value: Hiking
+    - name:
+      value: Cooking

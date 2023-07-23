@@ -15,7 +15,7 @@ profile:
     <p>Canada</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
@@ -24,7 +24,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a final year PhD student interested mostly in applications of AI in the fight against climate change. This has led me to explore various areas, from computer vision and GANs to geometric graphs for materials modeling.
 
-My first PhD project focused on creating **AI visualizations** of what your home could look like if climate-related extreme events (floods, wildfires or smog events) happened there. It's not about climate projections, it's about **empathy**: a climate in which every address in the world is experiencing floods, wildfires and smog at the same time does not exist. But the one we have is getting warmer, more dangerous, and everyone's actions have global consequences. This is why we published [ClimateGAN](https://arxiv.org/abs/2110.02871v1) (ICLR 2022) and deployed it on [This Climate Does Not Exist](https://thisclimatedoesnotexist.com). More about this in an upcoming blog post.
+My first PhD project focused on creating **AI visualizations** of what your home could look like if climate-related extreme events (floods, wildfires or smog events) happened there. It's not about climate projections, it's about **empathy**: a climate in which every address in the world is experiencing floods, wildfires and smog at the same time does not exist. But the one we have is getting warmer, more dangerous, and everyone's actions have global consequences. This is why we published [ClimateGAN](https://arxiv.org/abs/2110.02871v1) (ICLR 2022) and deployed it on [This Climate Does Not Exist](https://thisclimatedoesnotexist.com).
 
 The second project I've worked on for almost 2 years now is about using **AI for materials discovery**. The long-term goal is to contribute to the discovery of more efficient electro-catalysts that would improve the energy efficiency of a wide range of chemical reactions. To that end, I have worked on **graph neural networks** for materials property prediction: [PhAST](https://arxiv.org/abs/2211.12020) (under review at JMLR) and [FAENet](https://arxiv.org/abs/2305.05577v1) (ICML 2023). I am now focusing on using this work within a **generative model** ([GFlowNet](https://milayb.notion.site/The-GFlowNet-Tutorial-95434ef0e2d94c24aab90e69b30be9b3)) to efficiently explore the huge space of potential electro-catalysts.
 
