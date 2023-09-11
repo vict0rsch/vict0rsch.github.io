@@ -4,5 +4,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: Resume Victor Schmidt - July 2023.pdf
+cv_pdf: Resume Victor Schmidt - Sept 2023.pdf
 ---
