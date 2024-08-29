@@ -34,20 +34,20 @@
   pdf         = {https://arxiv.org/pdf/2110.02871.pdf}
 }
 
-@inproceedings{duval2022phast,
-  title       = {Ph{AST}: Physics-Aware, Scalable, and Task-specific {GNN}s for Accelerated Catalyst Design},
-  abbr        = {NeurIPS - Workshop},
-  dimensions  = {false},
-  author      = {Alexandre Duval* and Victor Schmidt* and Santiago Miret and Yoshua Bengio and Alex Hern{\'a}ndez-Garc{\'\i}a and David Rolnick},
-  booktitle   = {AI for Accelerated Materials Design NeurIPS 2022 Workshop},
-  year        = {2022},
-  url         = {https://openreview.net/forum?id=hHercGKiXvP},
-  html        = {https://openreview.net/forum?id=hHercGKiXvP},
+@article{JMLR:v25:23-0680,
+  author      = {Alexandre Duval and Victor Schmidt and Santiago Miret and Yoshua Bengio and Alex Hern{{\'a}}ndez-Garc{{\'i}}a and David Rolnick},
+  title       = {PhAST: Physics-Aware, Scalable, and Task-Specific GNNs for Accelerated Catalyst Design},
+  journal     = {Journal of Machine Learning Research},
+  year        = {2024},
+  volume      = {25},
+  number      = {106},
+  pages       = {1-26},
+  preview     = {phast.png},
   bibtex_show = {true},
   selected    = {true},
-  preview     = {phast.png},
-  code        = {https://github.com/vict0rsch/phast},
-  pdf         = {https://openreview.net/pdf?id=hHercGKiXvP}
+  url         = {http://jmlr.org/papers/v25/23-0680.html},
+  html        = {http://jmlr.org/papers/v25/23-0680.html},
+  pdf         = {https://jmlr.org/papers/volume25/23-0680/23-0680.pdf}
 }
 
 @article{duval2023faenet,
@@ -77,7 +77,6 @@
   url         = {https://arxiv.org/abs/2305.14594v1},
   html        = {https://arxiv.org/abs/2305.14594v1},
   bibtex_show = {true},
-  selected    = {true},
   code        = {https://github.com/saleml/torchgfn},
   preview     = {torchgfn.png},
   pdf         = {https://arxiv.org/pdf/2305.14594.pdf}
@@ -187,18 +186,55 @@
   pdf         = {https://arxiv.org/pdf/1910.09700.pdf}
 }
 @article{10.1371/journal.pdig.0000199,
-  doi       = {10.1371/journal.pdig.0000199},
-  abbr      = {PLOS Dig. Health},
-  author    = {Gupta, Prateek AND Maharaj, Tegan AND Weiss, Martin AND Rahaman, Nasim AND Alsdurf, Hannah AND Minoyan, Nanor AND Harnois-Leblanc, Soren AND Merckx, Joanna AND Williams, Andrew AND Schmidt, Victor AND St-Charles, Pierre-Luc AND Patel, Akshay AND Zhang, Yang AND Buckeridge, David L. AND Pal, Christopher AND Schölkopf, Bernhard AND Bengio, Yoshua},
-  journal   = {PLOS Digital Health},
-  publisher = {Public Library of Science},
-  title     = {Proactive Contact Tracing},
-  year      = {2023},
-  month     = {03},
-  volume    = {2},
-  url       = {https://doi.org/10.1371/journal.pdig.0000199},
-  pages     = {1-19},
-  abstract  = {The COVID-19 pandemic has spurred an unprecedented demand for interventions that can reduce disease spread without excessively restricting daily activity, given negative impacts on mental health and economic outcomes. Digital contact tracing (DCT) apps have emerged as a component of the epidemic management toolkit. Existing DCT apps typically recommend quarantine to all digitally-recorded contacts of test-confirmed cases. Over-reliance on testing may, however, impede the effectiveness of such apps, since by the time cases are confirmed through testing, onward transmissions are likely to have occurred. Furthermore, most cases are infectious over a short period; only a subset of their contacts are likely to become infected. These apps do not fully utilize data sources to base their predictions of transmission risk during an encounter, leading to recommendations of quarantine to many uninfected people and associated slowdowns in economic activity. This phenomenon, commonly termed as “pingdemic,” may additionally contribute to reduced compliance to public health measures. In this work, we propose a novel DCT framework, Proactive Contact Tracing (PCT), which uses multiple sources of information (e.g. self-reported symptoms, received messages from contacts) to estimate app users’ infectiousness histories and provide behavioral recommendations. PCT methods are by design proactive, predicting spread before it occurs. We present an interpretable instance of this framework, the Rule-based PCT algorithm, designed via a multi-disciplinary collaboration among epidemiologists, computer scientists, and behavior experts. Finally, we develop an agent-based model that allows us to compare different DCT methods and evaluate their performance in negotiating the trade-off between epidemic control and restricting population mobility. Performing extensive sensitivity analysis across user behavior, public health policy, and virological parameters, we compare Rule-based PCT to i) binary contact tracing (BCT), which exclusively relies on test results and recommends a fixed-duration quarantine, and ii) household quarantine (HQ). Our results suggest that both BCT and Rule-based PCT improve upon HQ, however, Rule-based PCT is more efficient at controlling spread of disease than BCT across a range of scenarios. In terms of cost-effectiveness, we show that Rule-based PCT pareto-dominates BCT, as demonstrated by a decrease in Disability Adjusted Life Years, as well as Temporary Productivity Loss. Overall, we find that Rule-based PCT outperforms existing approaches across a varying range of parameters. By leveraging anonymized infectiousness estimates received from digitally-recorded contacts, PCT is able to notify potentially infected users earlier than BCT methods and prevent onward transmissions. Our results suggest that PCT-based applications could be a useful tool in managing future epidemics.},
-  preview   = {plos.png},
-  number    = {3}
+  doi         = {10.1371/journal.pdig.0000199},
+  abbr        = {PLOS Dig. Health},
+  author      = {Gupta, Prateek AND Maharaj, Tegan AND Weiss, Martin AND Rahaman, Nasim AND Alsdurf, Hannah AND Minoyan, Nanor AND Harnois-Leblanc, Soren AND Merckx, Joanna AND Williams, Andrew AND Schmidt, Victor AND St-Charles, Pierre-Luc AND Patel, Akshay AND Zhang, Yang AND Buckeridge, David L. AND Pal, Christopher AND Schölkopf, Bernhard AND Bengio, Yoshua},
+  journal     = {PLOS Digital Health},
+  publisher   = {Public Library of Science},
+  title       = {Proactive Contact Tracing},
+  year        = {2023},
+  month       = {03},
+  volume      = {2},
+  url         = {https://doi.org/10.1371/journal.pdig.0000199},
+  html        = {https://doi.org/10.1371/journal.pdig.0000199},
+  pages       = {1-19},
+  abstract    = {The COVID-19 pandemic has spurred an unprecedented demand for interventions that can reduce disease spread without excessively restricting daily activity, given negative impacts on mental health and economic outcomes. Digital contact tracing (DCT) apps have emerged as a component of the epidemic management toolkit. Existing DCT apps typically recommend quarantine to all digitally-recorded contacts of test-confirmed cases. Over-reliance on testing may, however, impede the effectiveness of such apps, since by the time cases are confirmed through testing, onward transmissions are likely to have occurred. Furthermore, most cases are infectious over a short period; only a subset of their contacts are likely to become infected. These apps do not fully utilize data sources to base their predictions of transmission risk during an encounter, leading to recommendations of quarantine to many uninfected people and associated slowdowns in economic activity. This phenomenon, commonly termed as “pingdemic,” may additionally contribute to reduced compliance to public health measures. In this work, we propose a novel DCT framework, Proactive Contact Tracing (PCT), which uses multiple sources of information (e.g. self-reported symptoms, received messages from contacts) to estimate app users’ infectiousness histories and provide behavioral recommendations. PCT methods are by design proactive, predicting spread before it occurs. We present an interpretable instance of this framework, the Rule-based PCT algorithm, designed via a multi-disciplinary collaboration among epidemiologists, computer scientists, and behavior experts. Finally, we develop an agent-based model that allows us to compare different DCT methods and evaluate their performance in negotiating the trade-off between epidemic control and restricting population mobility. Performing extensive sensitivity analysis across user behavior, public health policy, and virological parameters, we compare Rule-based PCT to i) binary contact tracing (BCT), which exclusively relies on test results and recommends a fixed-duration quarantine, and ii) household quarantine (HQ). Our results suggest that both BCT and Rule-based PCT improve upon HQ, however, Rule-based PCT is more efficient at controlling spread of disease than BCT across a range of scenarios. In terms of cost-effectiveness, we show that Rule-based PCT pareto-dominates BCT, as demonstrated by a decrease in Disability Adjusted Life Years, as well as Temporary Productivity Loss. Overall, we find that Rule-based PCT outperforms existing approaches across a varying range of parameters. By leveraging anonymized infectiousness estimates received from digitally-recorded contacts, PCT is able to notify potentially infected users earlier than BCT methods and prevent onward transmissions. Our results suggest that PCT-based applications could be a useful tool in managing future epidemics.},
+  preview     = {plos.png},
+  number      = {3},
+  bibtex_show = {true}
+}
+@article{duval2023hitchhikers,
+  title       = {A Hitchhiker's Guide to Geometric GNNs for 3D Atomic Systems},
+  author      = {Alexandre Duval and Simon V. Mathis and Chaitanya K. Joshi and Victor Schmidt and Santiago Miret and Fragkiskos D. Malliaros and Taco Cohen and Pietro Lio and Yoshua Bengio and Michael Bronstein},
+  year        = {2023},
+  journal     = {arXiv preprint arXiv: 2312.07511},
+  url         = {https://arxiv.org/abs/2312.07511},
+  html        = {https://arxiv.org/abs/2312.07511},
+  pdf         = {https://arxiv.org/pdf/2312.07511.pdf},
+  bibtex_show = {true},
+  selected    = {true},
+  preview     = {hitchhiker.png}
+}
+@article{carbonero2023importance,
+  title       = {On the importance of catalyst-adsorbate 3D interactions for relaxed energy predictions},
+  author      = {Alvaro Carbonero and Alexandre Duval and Victor Schmidt and Santiago Miret and Alex Hernandez-Garcia and Yoshua Bengio and David Rolnick},
+  year        = {2023},
+  journal     = {arXiv preprint arXiv: 2310.06682},
+  url         = {https://arxiv.org/abs/2310.06682},
+  html        = {https://arxiv.org/abs/2310.06682},
+  pdf         = {https://arxiv.org/pdf/2310.06682.pdf},
+  bibtex_show = {true},
+  preview     = {importance.png}
+}
+
+@article{ramlaoui2024improving,
+  title       = {Improving Molecular Modeling with Geometric GNNs: an Empirical Study},
+  author      = {Ali Ramlaoui and Théo Saulus and Basile Terver and Victor Schmidt and David Rolnick and Fragkiskos D. Malliaros and Alexandre Duval},
+  year        = {2024},
+  journal     = {arXiv preprint arXiv: 2407.08313},
+  url         = {https://arxiv.org/abs/2407.08313},
+  html        = {https://arxiv.org/abs/2407.08313},
+  pdf         = {https://arxiv.org/pdf/2407.08313.pdf},
+  preview     = {improving.png},
+  bibtex_show = {true}
 }

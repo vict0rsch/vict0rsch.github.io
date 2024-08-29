@@ -1,8 +1,8 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: CV
 nav: true
-nav_order: 4
-cv_pdf: Resume_Victor_Schmidt_Sept_2023.pdf
+nav_order: 5
+# cv_pdf: Resume_Victor_Schmidt_Sept_2023.pdf
 ---
