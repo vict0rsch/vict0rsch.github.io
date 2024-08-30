@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 ### About me
 
-💡 I am a scientist and engineer, passionate about AI & sustainability. I created [Entalpic](https://entalpic.ai) with the amazing Mathieu Galtier (CEO) and Alexandre Duval (CSO) in 2024. Entalpic is an AI-driven discovery company for chemistry and material science, fostering greener and smarter industrial processes. We're proud to build this company together with a team of smart, talented and caring people.
+💡 I am a scientist and engineer, passionate about AI & sustainability. I created [Entalpic](https://entalpic.ai) with the amazing Mathieu Galtier (CEO) and [Alexandre Duval](https://alexduvalinho.github.io/) (CSO) in 2024. Entalpic is an AI-driven discovery company for chemistry and material science, fostering greener and smarter industrial processes. We're proud to build this company together with a team of smart, talented and caring people.
 
 I love to cook (I'm a fan of Ottolenghi's cookbooks), hike up (downhill sucks) and play tennis. I enjoy talking about everything, from politics (I heard it's a French thing) and philosophy to prime numbers (did you know any prime squared is just 1 more than a [multiple of 24](https://www.youtube.com/watch?v=ZMkIiFs35HQ)?)
 
