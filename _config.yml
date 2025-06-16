@@ -8,7 +8,7 @@ middle_name: ""
 last_name: Schmidt
 # email: ""
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD candidate at Mila, Université de Montréal, supervised by Prof. Yoshua Bengio. I am interested in applications of AI in the fight against climate change.
+  Engineer & Scientist | Co-Founder & CTO at Entalpic
 footer_text: ""
 keywords: deep learning, GANs, GNNs, materials discovery, climate change # add your own keywords or leave empty
 
